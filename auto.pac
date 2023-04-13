@@ -38,7 +38,7 @@ function FindProxyForURL(url, host) {
 
 /* 端口请根据需要修改 */
 var proxy = 'SOCKS5 127.0.0.1:9999';
-var proxy = "SOCKS5 192.168.124.235:9999";
+var proxy = "PROXY 192.168.124.235:9999";
 var rules = [
   /* 优先级最高 */
   [
